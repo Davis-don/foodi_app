@@ -15,7 +15,7 @@ border-radius:4px;
 .select-option{
 border: none;
 width: 1.5rem;
-background-color:var(--primary-color);
+color:var(--primary-color);
 }
 .center-header ul{
 display: flex;
