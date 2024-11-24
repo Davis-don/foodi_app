@@ -1,0 +1,41 @@
+
+
+.overall-header-section{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-inline: 4rem;
+padding-block: 2rem;
+flex-wrap: wrap;
+align-items: center;
+}
+.secondary-color{
+background-color: #39DB4A;
+border-radius:4px;
+}
+.select-option{
+border: none;
+width: 1.5rem;
+color: #39DB4A;
+}
+.center-header ul{
+display: flex;
+flex-direction: row;
+gap: .7rem;
+flex-wrap: wrap;
+}
+.button-header-contact{
+ background-color: #39DB4A;  
+ width: max-content; 
+ padding:.5rem;
+ border-radius: 20px;
+ width: 7rem;
+ text-align: center;
+ font-size:.9rem;
+}
+.right-header ul{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+flex-wrap: wrap;
+}
