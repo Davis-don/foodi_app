@@ -5,7 +5,6 @@ import Stories from './Components/stories/stories'
 import Testimonial from './Components/Testimonials/testimonials'
 
 function App() {
-
   return (
     <div className='app'>
 <Header/>
@@ -13,7 +12,7 @@ function App() {
 <Stories/>
 <Testimonial/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

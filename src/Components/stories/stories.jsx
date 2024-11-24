@@ -1,10 +1,9 @@
-import React from 'react';
-import './stories.css';
+import React from "react";
+import "./stories.css";
 import image1 from "../../assets/img1.png";
 import image2 from "../../assets/img2.png";
 import image3 from "../../assets/img3.jpg";
 import image4 from "../../assets/img4.png";
-
 
 function Stories() {
   return (
@@ -14,8 +13,9 @@ function Stories() {
           <h2>Our Story & Services</h2>
           <h1>Our Culinary Journey And Services</h1>
           <p>
-            Rooted in passion, we create unforgettable dining experiences and offer
-            exceptional services, blending culinary artistry with warm hospitality.
+            Rooted in passion, we create unforgettable dining experiences and
+            offer exceptional services, blending culinary artistry with warm
+            hospitality.
           </p>
           <button>Explore</button>
         </div>
