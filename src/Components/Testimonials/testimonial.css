@@ -1,0 +1,165 @@
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 4rem;
+  }
+  
+  .chef-section {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+.chef-image {
+  width: 180px;
+  height: 200px;
+  border-radius: 14px;
+  object-fit: cover;
+  position: relative;
+  top: -30px; 
+}
+
+.emoji-left {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  z-index: 1;
+}
+
+.emoji-right {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  z-index: 1;
+}
+
+
+  .chef-badge {
+    position: absolute;
+    bottom: -0.1px;
+    left: 10%;
+    transform: translateY(-70%);
+    background-color: rgba(241, 238, 238, 0.9);
+    padding: 5px 15px;
+    border-radius: 9px;
+    width: 11rem;
+    font-size: 11px;
+    font-weight: bold;
+    z-index: 3;
+  }
+  
+  .testimonial-content {
+    max-width: 600px;
+  }
+  
+  .testimonial-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .testimonial-quote {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .customer-feedback {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10px;
+  }
+  
+  .avatars {
+    display: flex;
+    position: relative;
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin-left: -15px;
+  }
+  
+  .avatar:first-child {
+    margin-left: 0;
+    z-index: 3;
+  }
+  
+  .rating {
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+  }
+  
+  .text {
+    font-weight: 700;
+  }
+  
+  .stars {
+    color: #FFD700;
+  }
+  
+  .rating span:last-child {
+    color: #888;
+  }
+  
+  @media screen and (max-width: 740px) {
+    .testimonial-title {
+      font-size: 22px;
+    }
+  
+    .testimonial-quote {
+      font-size: 16px;
+    }
+  
+    .feedback-title {
+      font-size: 16px;
+    }
+  
+    .rating {
+      font-size: 14px; 
+    }
+  
+    .stars {
+      font-size: 14px; 
+    }
+  
+  }
+  
+  @media screen and (max-width: 440px) {
+    .testimonial-title {
+      font-size: 17px;
+    }
+  
+    .testimonial-quote {
+      font-size: 13px;
+    }
+  
+    .feedback-title {
+      font-size: 16px;
+    }
+  
+    .rating {
+      font-size: 14px; 
+    }
+  
+    .stars {
+      font-size: 12px; 
+    }
+  
+  }
+  
