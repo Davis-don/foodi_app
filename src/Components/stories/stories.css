@@ -1,0 +1,120 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .story-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .story {
+    flex: 1 1 45%; 
+    margin: 2rem;
+    text-align: left;
+  }
+  
+  .story h2 {
+    color: crimson;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .story h1 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+  }
+  
+  .story p {
+    font-size: 1.3rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+  }
+  
+  .story button {
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    margin-top: 1rem;
+    width: auto;
+    font-size: 1rem;
+    text-transform: capitalize;
+    background-color: #39db4a;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .story button:hover {
+    background-color: #2ab736;
+  }
+  
+  .services {
+    flex: 1 1 45%; 
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem;
+    border-radius: 15px;
+    width: 150px;
+    text-align: center;
+    background: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  
+  .card img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    color: #69e475;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card p {
+    color: #90bd95;
+    font-size: 0.7rem;
+    line-height: 1.4;
+  }
+  
+  @media (max-width: 768px) {
+    .story-container {
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .story, .services {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  
+    .story button {
+      margin: 0 auto;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      width: 100%;
+    }
+  }
