@@ -141,14 +141,14 @@
 }
 @media (max-width: 1900px) {
   .header-carousel {
-    gap: 10rem;
+    gap: 12rem;
   }
 
   .header-title {
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .header-carousel {
     flex-direction: column;
     align-items: flex-start;
