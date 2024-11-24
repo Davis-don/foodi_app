@@ -16,6 +16,11 @@
   border: none;
   width: 1.5rem;
   background-color: var(--primary-color);
+.select-option{
+border: none;
+width: 1.5rem;
+color:var(--primary-color);
+
 }
 .center-header ul {
   display: flex;
