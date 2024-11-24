@@ -1,5 +1,9 @@
 import React from "react";
 import "./header.css";
+function Header() {
+  return (
+    <div className="overall-header-section">
+      <h1>Header</h1>
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaSearch } from "react-icons/fa";
 import { BsBasket3 } from "react-icons/bs";
