@@ -1,0 +1,83 @@
+.overall-hero-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  background-color: #fcfcfc;
+  padding: 2rem;
+}
+@media screen and (max-width: 55.625em) {
+  .overall-hero-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    gap: 8rem;
+  }
+}
+.left-hero {
+  padding-inline: 5rem;
+}
+.left-hero h2 {
+  text-align: center;
+}
+.left-hero p {
+  text-align: center;
+}
+.bottom-section-hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.div-button-hero {
+  background-color: var(--primary-color);
+  width: max-content;
+  font-size: 0.8rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  width: 7rem;
+  text-align: center;
+}
+.play-icon-container {
+  background-color: white;
+  padding: 0.5rem;
+}
+.right-hero {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.circular-container-hero {
+  width: 12rem;
+  height: 12rem;
+  background-color: var(--primary-color);
+  position: absolute;
+  z-index: +1;
+}
+.hero-img-big {
+  width: 25rem;
+  height: 20rem;
+  position: absolute;
+  z-index: +2;
+  top: 40%; /* Position Y halfway in */
+  left: 40%; /* Position X halfway in */
+  transform: translate(-50%, -50%);
+}
+.bottom-cards-section {
+  position: absolute;
+  z-index: +3;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  background-color: red;
+  top: 12rem;
+}
+.card-hero {
+  width: 8rem;
+  height: 3rem;
+}
+.card-hero img {
+  width: 3px;
+  height: 3px;
+}
