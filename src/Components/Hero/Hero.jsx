@@ -9,8 +9,6 @@ import heroimg1 from "../../assets/hero-small-1.png";
 function Hero() {
   return (
     <div className="overall-hero-section">
-      <h1>Heo section</h1>
-
       <div className="left-hero container">
         <h2>
           Dive into Delights of Delectable <span>Food</span>
