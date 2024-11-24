@@ -1,7 +1,7 @@
 import React from "react";
-import './testimonial.css'; 
-import ChefImage from "../../assets/chefImage.jpg"; 
-import Customer1 from "../../assets/h1.jpg"; 
+import "./testimonial.css";
+import ChefImage from "../../assets/chefImage.jpg";
+import Customer1 from "../../assets/h1.jpg";
 import Customer2 from "../../assets/h2.jpg";
 import Customer3 from "../../assets/h3.jpg";
 
@@ -32,7 +32,9 @@ const Testimonial = () => {
             <img src={Customer3} alt="Customer 3" className="avatar" />
           </div>
           <div className="rating">
-            <div><h4 className='text'>Customer Feedback</h4></div>
+            <div>
+              <h4 className="text">Customer Feedback</h4>
+            </div>
             <span className="stars">⭐</span>
             <span>4.9</span>
             <span>(18.6k Reviews)</span>
