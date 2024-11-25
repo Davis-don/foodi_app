@@ -7,12 +7,13 @@ import SpecialDishes from "./Components/SpecialDishes/specialDishes";
 
 function App() {
   return (
-    <div className='app'>
-<Header/>
-<Hero/>
-<SpecialDishes/>
-<Stories/>
-<Testimonial/>
+    <div className="app">
+      <Header />
+      <Hero />
+      <Categories/>
+      <Stories />
+      <Testimonial />
+      <Footer/>
     </div>
   );
 }
