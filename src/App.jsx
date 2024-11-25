@@ -12,6 +12,7 @@ function App() {
 <Hero/>
 <SpecialDishes/>
 <Stories/>
+<SpecialDishes/>
 <Testimonial/>
     </div>
   );
