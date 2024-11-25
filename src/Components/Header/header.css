@@ -17,7 +17,7 @@
 .select-option {
   border: none;
   width: 1.5rem;
-  background-color: var(--primary-color);
+  color: var(--primary-color);
   color: var(--primary-color); /* Avoid duplicate definitions */
 }
 
