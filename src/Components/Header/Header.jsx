@@ -1,15 +1,16 @@
 import React from "react";
-import "./header.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { FaSearch } from "react-icons/fa";
 import { BsBasket3 } from "react-icons/bs";
 import { MdWifiCalling1 } from "react-icons/md";
+import './header.css'
+
 function Header() {
   return (
     <div className="overall-header-section">
       <div className="left-header">
         <h5>
-          <span className="secondary-color  text-light p-1">F</span>oodi
+          <span className="secondary-color text-light p-1">F</span>oodi
         </h5>
       </div>
       <div className="center-header">
@@ -51,3 +52,5 @@ function Header() {
 }
 
 export default Header;
+
+
