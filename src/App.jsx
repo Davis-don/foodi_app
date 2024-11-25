@@ -3,7 +3,6 @@ import Header from './Components/Header/Header'
 import Hero from './Components/Hero/Hero'
 import Stories from './Components/stories/stories'
 import Testimonial from './Components/Testimonials/testimonials'
-import  SpecialDishes from './Components/SpecialDishes/specialDishes'
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
 <Header/>
 <Hero/>
 <Stories/>
-<SpecialDishes/>
 <Testimonial/>
     </div>
   );
