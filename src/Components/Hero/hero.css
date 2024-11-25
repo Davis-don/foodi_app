@@ -16,6 +16,11 @@
 .left-hero {
   padding-inline: 5rem;
 }
+@media screen and (max-width:31.25em) {
+  .left-hero {
+    padding-inline: 0px
+  }
+}
 .left-hero h2 {
   text-align: center;
 }
@@ -27,6 +32,8 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
 }
 .div-button-hero {
   background-color: var(--primary-color);
@@ -52,7 +59,7 @@
   width: 12rem;
   height: 12rem;
   background-color: var(--primary-color);
-  position: absolute;
+  /* position: absolute; */
   z-index: +1;
 }
 .hero-img-big {

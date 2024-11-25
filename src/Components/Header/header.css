@@ -8,30 +8,36 @@
   align-items: center;
   background-color: var(--secondary-color);
 }
+
 .secondary-color {
   background-color: var(--primary-color);
   border-radius: 4px;
 }
+
 .select-option {
   border: none;
   width: 1.5rem;
-  background-color: var(--primary-color);
+  color: var(--primary-color);
+  color: var(--primary-color); /* Avoid duplicate definitions */
 }
+
 .center-header ul {
   display: flex;
   flex-direction: row;
   gap: 0.7rem;
   flex-wrap: wrap;
 }
+
 .button-header-contact {
   background-color: var(--primary-color);
   width: max-content;
   padding: 0.5rem;
   border-radius: 20px;
-  width: 7rem;
   text-align: center;
   font-size: 0.9rem;
+  width: 7rem; /* Move width to a single declaration */
 }
+
 .right-header ul {
   display: flex;
   flex-direction: row;

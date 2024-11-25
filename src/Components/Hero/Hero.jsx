@@ -5,6 +5,7 @@ import { FaPlay } from "react-icons/fa";
 import heroimg from "../../assets/hero-img.png";
 import heroimg1 from "../../assets/hero-small-1.png";
 
+
 function Hero() {
   return (
     <div className="overall-hero-section">
@@ -43,6 +44,7 @@ function Hero() {
 
         </div> */}
       </div>
+
     </div>
   );
 }
