@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./specialDishes.css";
-import prev from "../../Assets/prev.png";
-import previous from "../../assets/previous.png";
-import next from "../../assets/next.png";
+import prev from "../../Assets/images/prev.png";
+import previous from "../../assets/images/previous.png";
+import next from "../../assets/images/next.png";
 import { FiHeart } from "react-icons/fi";
-import Vegetable from "../../assets/Vegetable salad.png";
-import Egg from "../../assets/Egg salad.png";
-import FattoushImage from "../../assets/Fattoush-salad.png";
+import Vegetable from "../../assets/images/Vegetable salad.png";
+import Egg from "../../assets/images/Egg salad.png";
+import FattoushImage from "../../assets/images/Fattoush-salad.png";
 function SpecialDishes() {
   return (
     <div className="menu-section">
