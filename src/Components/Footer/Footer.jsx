@@ -1,17 +1,14 @@
+import React from "react";
 import "./Footer.css";
 import { FaInstagram, FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa";
-
+import logo from "./assets/logo.png";
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-section">
-        <div className="left-header">
-        <h5>
-          <span className="secondary-color text-light p-1">F</span>oodi
-        </h5>
-      </div>
+          <img src={logo} alt="Food Logo" />
           <p>Savor the artistry where every dish is a culinary masterpiece</p>
         </div>
 
@@ -66,7 +63,6 @@ function Footer() {
           </ul>
         </div>
       </div>
-
 
       <div className="footer-bottom">
         <ul className="social-media">
