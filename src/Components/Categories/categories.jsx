@@ -1,9 +1,9 @@
-import React from 'react';
-import burger from '../../assets/burger.png'
+import React from "react";
+import burger from "../../assets/burger.png";
 import breakfast from "../../assets/breakfast.png";
 import dessert from "../../assets/dessert.png";
 import browse from "../../assets/browse.png";
-import './Categories.css';
+import "./Categories.css";
 
 const categories = [
   { title: "Main Dish", image: burger, items: "(86 dishes)" },

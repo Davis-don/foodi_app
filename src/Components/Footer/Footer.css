@@ -53,7 +53,7 @@
   border-top: 1px solid #ddd;
   font-size: 0.9rem;
   color: #666;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .social-media {
@@ -75,7 +75,9 @@
   justify-content: center;
   border-radius: 50%;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
 }
 
 .facebookicon a {
@@ -90,8 +92,6 @@
 .copyright-text {
   color: black;
   margin: auto;
- 
- 
 }
 @media (max-width: 768px) {
   .footer-container {
