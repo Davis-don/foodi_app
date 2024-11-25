@@ -46,15 +46,14 @@
 .footer-section p {
   color: #666;
 }
-
 .footer-bottom {
   display: flex;
-  flex-direction: column;
   align-items: center;
   padding-top: 20px;
   border-top: 1px solid #ddd;
   font-size: 0.9rem;
   color: #666;
+  flex-wrap: wrap; 
 }
 
 .social-media {
@@ -62,7 +61,7 @@
   gap: 10px;
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 0;
 }
 
 .social-media li a {
@@ -76,9 +75,7 @@
   justify-content: center;
   border-radius: 50%;
   text-decoration: none;
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .facebookicon a {
@@ -92,10 +89,10 @@
 
 .copyright-text {
   color: black;
-  text-align: center;
-  margin-top: 10px;
+  margin: auto;
+ 
+ 
 }
-
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
